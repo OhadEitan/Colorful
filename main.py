@@ -1,6 +1,7 @@
+import streamlit as sl
 import cv2 as cv
 import numpy as np
-import streamlit as sl
+
 import pandas as pd
 from scipy.spatial import KDTree
 
