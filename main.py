@@ -71,7 +71,7 @@ class MultiPage:
 
 
 # showing the HSV param of specific pixel
-def mouseHSV(event, x, y, ):
+def mouseHSV(event, x, y ):
     if event == cv.EVENT_LBUTTONDOWN:  # checks mouse left button down condition
         colorsB = img[y, x, 0]
         colorsG = img[y, x, 1]
